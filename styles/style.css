@@ -1,0 +1,259 @@
+* {outline: none}
+
+html {
+	background-color: #A679B5;
+	height: 100%;
+	min-width: 1024px;
+	position: relative;
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 1024px;
+	margin: 0;
+	z-index:-2;
+	overflow: hidden;
+}
+
+#mask {
+	width:600%;
+	height:100%;
+	overflow:hidden;
+}
+
+div#container{
+	width: 100%;
+	height: 100%;
+	min-width: 1024px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left:0;
+	overflow: hidden;
+	z-index: 0;
+}
+
+h1 {
+	font-family: 'Arial';
+	font-size: 21px;
+	color: #462552;
+}
+
+a {
+	color: #F5E6FA
+}
+
+a:hover {
+	color: #D6AFFA
+}
+
+p {
+	font-family: 'Arial';
+	font-size: 13px;
+	line-height: 15px;
+	color: #F5E6FA
+}
+
+ul {
+	list-style-type: none;
+}
+
+div#header {
+	position: fixed;
+	top:0px;
+	left:0px;
+	min-width:1024px;
+	width: 100%;
+	height: 40px;
+	background-color: #905DA1;
+	z-index: 100;
+}
+
+div#home {
+	position: relative;
+	width: 17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
+div#about {
+	position: relative;
+	width: 17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index 10;
+	float: left;
+}
+
+div#twig {
+	position: relative;
+	width:17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
+div#audition {
+	position: relative;
+	width:17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
+div#contact {
+	position: relative;
+	width:17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
+.box {
+	position: absolute;
+	width: 780px;
+	height: 560px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	top: 50%;
+	left: 50%;
+	margin-top: -280px;
+	margin-left: -390px;
+}
+
+div#homebox {
+	width: 780px;
+	height: 430px;
+	
+}
+
+div#hometitle {
+	width: 760px;
+	height: 95px;
+	display: block;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	box-shadow: 5px 5px 5px #998888;
+}
+
+div#aboutbox {
+	position: absolute;
+	width: 780px;
+	height: 560px;
+	top: 50%;
+	left: 50%;
+	margin-top: -280px;
+	margin-left: -390px;
+}
+
+div#abouttop {
+	width: 780px;
+	height: 250px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	box-shadow: 5px 5px 5px #988;
+}
+
+div#aboutbottom {
+	margin-top: 20px;
+	width: 780px;
+	height: 230px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	box-shadow: 5px 5px 5px #988;
+}
+
+div#contactbox {
+	position: absolute;
+	width: 780px;
+	height: 560px;
+	top: 50%;
+	left: 50%;
+	margin-top: -280px;
+	margin-left: -390px;
+}
+
+div#contacttop {
+	width: 720px;
+	height: 260px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	boxshadow: 5px 5px 5px #988;
+	padding: 30px;
+}
+
+div#contactbottom {
+	margin-top: 20px;
+	width: 780px;
+	height: 235px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	box-shadow: 5px 5px 5px #988;
+}
+
+div#twigbox {
+	position: absolute;
+	width: 760;
+	height: 450px;
+	top: 50%;
+	left: 50%;
+	margin-top: -257px;
+	margin-left: -410px;
+	padding:30px;
+}
+
+div#audbox {
+	position: absolute;
+	width: 760;
+	height: 450;
+	top: 50%;
+	left: 50%;
+	margin-top: -257px;
+	margin-left: -410px;
+	padding: 30px;
+}
+
+div#audtop {
+	width: 720px;
+	height: 260px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+	boxshadow: 5px 5px 5px #988;
+}
+
+div#audbox table {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+div#audbox table tr td {
+	padding: 5px
+}
+
+/*Navigation shit*/
+ul#navigation {
+	height: 40px;
+	list-style-type: none;
+	margin: 0 auto;
+	position: relative;
+	width: 900px;
+	z-index: 1000;
+}
+
+ul#navigation li {
+	float: left;
+	line-height: 60px;
+	list-style-type: none;
+	padding-right: 20px;
+	z-index: 1000;
+	margin-right: 0px;
+}
