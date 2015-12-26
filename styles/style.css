@@ -257,3 +257,17 @@ ul#navigation li {
 	z-index: 1000;
 	margin-right: 0px;
 }
+
+
+ul#navigation li a {
+    display: block; /* make all block clickable*/
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	height: 40px;
+	width: 110px;
+}
+
+ul#navigation li a:hover{
+    background-color: #111;
+}
