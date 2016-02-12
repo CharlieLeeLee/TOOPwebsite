@@ -50,6 +50,50 @@ a:hover {
 	color: #D6AFFA
 }
 
+a.auditionlink{
+	display: block;
+	width: 100px;
+	height: 100px;
+	transition: 0.5s;
+}
+
+a.auditionlink:hover {
+	/*when I get the actual images*/
+	/*background-position: 0px -100%;*/
+}
+
+a#acting {
+ 	background-image: url('../images/Acting.png');
+}
+
+a#directing {
+	background-image: url('../images/Directing.png');
+}
+
+a#writing {
+	background-image: url('../images/Writing.png');
+}
+
+a#lighting {
+	background-image: url('../images/Lighting.png');
+}
+
+a#sound {
+	background-image: url('../images/Sound.png');
+}
+
+a#costume {
+	background-image: url('../images/Costumes.png');
+}
+
+a#props {
+	background-image: url('../images/Props.png');
+}
+
+a#set {
+	background-image: url('../images/Set.png');
+}
+
 p {
 	font-family: 'Arial';
 	font-size: 13px;
@@ -213,7 +257,7 @@ div#twigbox {
 div#audbox {
 	position: absolute;
 	width: 760;
-	height: 450;
+	height: 560;
 	top: 50%;
 	left: 50%;
 	margin-top: -257px;
@@ -223,20 +267,32 @@ div#audbox {
 
 div#audtop {
 	width: 720px;
-	height: 260px;
+	height: 125px;
 	background-color: #905DA1;
 	background: rgba(144, 93, 161, 0.8);
 	boxshadow: 5px 5px 5px #988;
 }
 
 div#audbox table {
-	position: absolute;
+	position: relative;
 	top: 15px;
 	left: 25px;
 }
 
 div#audbox table tr td {
 	padding: 5px
+}
+
+div.case{
+	float: right;
+	width: 260px;
+	height: 460px;
+	padding: 20px;
+	background-color: #c4d5ce;
+}
+
+div.clear{
+	clear: both;
 }
 
 /*Navigation shit*/

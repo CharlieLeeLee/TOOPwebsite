@@ -4,8 +4,13 @@
 		<meta name="viewport" content="width=device-width, height=768, maximum-scale=0.85" />
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 		<link rel="stylesheet" type="text/css" href="script/scroller/skin.css" />
+		
 	</head>
-	<body>		
+	<body>	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="script/fancybox.js"></script>	
 		<!--Nav bar and header-->
 		<div id="header">
 			<a class="pagelink" id="logolink" href="#home"></a>
@@ -85,52 +90,78 @@
 			</p>
 			</div>
 			
+			<div id="audbottom">
 			<table>
 				<tr>
-					<td><a rel="4" href="#actingdiv" target="_blank" class="auditionlink" id="acting"></a></td>
-					<td><a rel="4" href="#directingdiv" target="_blank" class="auditionlink" id="directing"></a></td>
-					<td><a rel="4" href="#writingdiv" target="_blank" class="auditionlink" id="writing"></a></td>
-					<td><a rel="4" href="#lightingdiv" target="_blank" class="auditionlink" id="lighting"></a></td>
+					<td><a id="acting" class = "gallery auditionlink" target="_blank" href="images/ActingBig.png" rel="4"></a></td>
+					<td><a rel="4" href="#directingdiv" target="_blank" class="gallery auditionlink" id="directing"></a></td>
+					<td><a rel="4" href="#writingdiv" target="_blank" class="gallery auditionlink" id="writing"></a></td>
+					<td><a rel="4" href="#lightingdiv" target="_blank" class="gallery auditionlink" id="lighting"></a></td>
 				</tr>
 				<tr>
-					<td><a rel="4" href="#sounddiv" target="_blank" class="auditionlink" id="sound"></a></td>
-					<td><a rel="4" href="#costumediv" target="_blank" class="auditionlink" id="costume"></a></td>
-					<td><a rel="4" href="#propsdiv" target="_blank" class="auditionlink" id="props"></a></td>
-					<td><a rel="4" href="#setdiv" target="_blank" class="auditionlink" id="set"></a></td>
+					<td><a rel="4" href="#sounddiv" target="_blank" class="gallery auditionlink" id="sound"></a></td>
+					<td><a rel="4" href="#costumediv" target="_blank" class="gallery auditionlink" id="costume"></a></td>
+					<td><a rel="4" href="#propsdiv" target="_blank" class="gallery auditionlink" id="props"></a></td>
+					<td><a rel="4" href="#setdiv" target="_blank" class="gallery auditionlink" id="set"></a></td>
 				</tr>
 			</table>
+			</div>
 			
 			<div style="display: none">
 				<div id="actingdiv" class="auditioninfo"> 
-					<!--insert image here-->
+					<div class="case clienteditor">
+					<h1> Acting</h1>
+					<p> add acting audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="directingdiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Directing</h1>
+					<p> add directing audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="writingdiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Writing</h1>
+					<p> add writing audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="lightingdiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Lighting Design</h1>
+					<p> add lighting audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="sounddiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Sound Design</h1>
+					<p> add sound audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="costumediv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Costume Design</h1>
+					<p> add costume audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="propsdiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Props Design</h1>
+					<p> add props audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div id="setdiv" class="auditioninfo">
-					<!--insert image here-->
+					<div class="case">
+					<h1> Set Design</h1>
+					<p> add set audition info here</p>
+					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
