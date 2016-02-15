@@ -152,6 +152,24 @@ div#audition {
 	float: left;
 }
 
+div#members {
+	position: relative;
+	width:17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
+div#gallery {
+	position: relative;
+	width: 17%;
+	min-width: 1024px;
+	height: 112%;
+	z-index: 10;
+	float: left;
+}
+
 div#contact {
 	position: relative;
 	width:17%;
@@ -281,6 +299,35 @@ div#audbox table {
 
 div#audbox table tr td {
 	padding: 5px
+}
+
+div#membox {
+	position: absolute;
+	width: 760;
+	height: 560;
+	top: 50%;
+	left: 50%;
+	margin-top: -257px;
+	margin-left: -390px;
+	padding: 30px;
+}
+
+div#memtop {
+	width: 720px;
+	height: 125px;
+	background-color: #905DA1;
+	background: rgba(144, 93, 161, 0.8);
+}
+
+div#gallbox {
+	position: absolute;
+	width: 760;
+	height: 450px;
+	top: 50%;
+	left: 50%;
+	margin-top: -257px;
+	margin-left: -410px;
+	padding:30px;
 }
 
 div.case{
