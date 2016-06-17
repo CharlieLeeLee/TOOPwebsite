@@ -1,4 +1,21 @@
-Things to note:
-	width of audition area images need to be 160px
+Make a good background - DONE
 
-Figure out why the fancybox stuff isn't working.
+Get pictures to use on static pages
+
+add database compatibility
+
+Figure out scrolling within each box. 
+	Side scrolling for Eboard, probably
+	vertical scrolling for past productions and members - DONE (theoretically)
+		also, probably use fancy box stuff for the logos and fliers for each production
+	custom scroll bars, preferrably
+
+Add email form to contact page
+
+Add social media buttons to contact page
+
+Figure out a mailing list that people can auto-sign up for rather than google groups
+
+Check for accesibility 
+- screen reader compatibility
+- check contrast of text

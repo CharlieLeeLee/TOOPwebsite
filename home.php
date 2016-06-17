@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>The Opposite of People</title>
@@ -26,27 +27,17 @@
 <div id="container">
 	<div id="mask">		
 		
+		<!--home page-->
 		<div id="home">
 			<div id="homebox" class="box" style="background-color:transparent;">
 				<div id="hometitle">
 					<h1 style="float:left; width: 700px;">The Opposite of People Theatre Company</h1>
 				</div>
-					<p><i>There we were - demented children <br />
-					mincing about in clothes that no one ever wore, <br />
-					speaking as no man ever spoke, <br />
-					swearing love in wigs and rhymed couplets, <br />
-					killing each other with wooden swords, <br />
-					hollow protestations of faith <br />
-					hurled after empty promises of vengeance - <br />
-					and every gesture, every pose, <br/>
-					vanishing into the thin unpopulated air. <br />
-					We ransomed our dignity to the clouds, <br />
-					and the uncomprehending birds listened. <br />
-					Don't you see?! We're actors - <br />
-					<b>we're the opposite of people!</b></i></p>
-					<!--add current season information to the home page-->
+					<!--add current season information to the home page based on database information-->
 			</div>
 		</div>	
+		
+		<!--about page-->
 		<div id="about">
 			<div id="aboutbox">
 				<div id="abouttop">
@@ -61,13 +52,14 @@
 				</div>
 				
 				<div id="aboutbottom">
-				<h1>Coming this Season!</h1>
+				<h1></h1>
 				<!--I will figure out what I want to do here later-->
 				</div>
 			</div>
 				
 		</div>
-			
+		
+		<!--Twig Page-->
 		<div id="twig">
 			<div id="twigbox">
 			<p style="float: right; display: block; width: 500px; margin-right: 20px; line-height:20px;">
@@ -82,7 +74,7 @@
 			</div>
 		</div>
 			
-			
+		<!--Audition page-->
 		<div id="audition">
 			<div id="audbox">
 			<div id="audtop">
@@ -93,6 +85,7 @@
 			</p>
 			</div>
 			
+			<!--fancybox table of Audition categories-->
 			<div id="audbottom">
 			<table>
 				<tr>
@@ -110,6 +103,7 @@
 			</table>
 			</div>
 			
+			<!--contents of the pop-up fancyboxes-->
 			<div style="display: none">
 				<div id="actingdiv" class="auditioninfo"> 
 					<div class="case clienteditor">
@@ -171,24 +165,53 @@
 		</div>
 		</div>
 		
+		<!--Members page-->
 		<div id="members">
 			<div id="membox">
 			<div id="memtop">
 			<h1 align=center>Our Illustrious E-Board</h1>
-			<!--use database information to display members-->
-			</div>
 			
+			<!--create table of executive board members with the database-->
+			<table>
+				<tr>
+			<?php
+				include("script/execList.php");?>
+				</table>
+			</div>
 			<div id="membottom">
 			<h1 align=center>Our Other Members</h1>
 			<!--use database information to display members-->
+			<table>
+				<?php
+				$list_alums = false;
+				include("script/memberList.php");?>
+			</table>
 			</div>
 			</div>
 		</div>
 		
+		<!--archives page-->
 		<div id="archives">
 			<div id="gallbox">
 			<h1>Past Shows</h1>
 			<!--use database information to create galleries-->
+			</div>
+		</div>
+		
+		<!--contact page-->
+		<div id="contact">
+			<div id="contactbox">
+			<div id="contacttop">
+			<h1>Contact Us</h1>
+			<!--use email form here-->
+			</div>
+			<div id="contactbottom">
+			<h2>Social Media</h2>
+			<p>Like us on Facebook, and follow us on Tumblr!</p>
+			<!--add social media links/buttons-->
+			<p>Keep up with the latest TOOP news by joining our fan mailing list!</p>
+			<!--email list form-->
+			</div>
 			</div>
 		</div>
 	</div>
